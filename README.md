@@ -1,2 +1,3 @@
-# cs234n-lab02
+youve read it all
+
  
