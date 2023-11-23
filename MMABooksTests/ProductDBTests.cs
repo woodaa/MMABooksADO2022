@@ -5,7 +5,7 @@ using MMABooksDBClasses;
 namespace MMABooksTests {
     [TestFixture]
     public class ProductDBTests {
-        // I wasn't sure if I was suppose to use this, so I left it blank
+   
         [SetUp]
         public void SetUp() { }
 

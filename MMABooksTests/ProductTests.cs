@@ -64,7 +64,7 @@ namespace MMABooksTests {
             Assert.AreEqual(newOnHandQuantity, product.OnHandQuantity);
         }
 
-        // Omitting function body because of information in StateTests.cs regarding getters
+     
         [Test]
         public void TestProductGetters() { }
 
@@ -73,7 +73,6 @@ namespace MMABooksTests {
             Product product = new("ABC1", "Book 1", 0.1m, 1234);
             Assert.IsTrue(product.ToString().Contains('1'));
             Assert.IsTrue(product.ToString().Contains('A'));
-            // Check Test Explorer console for output, not terminal console
             Console.WriteLine(product);
         }
 

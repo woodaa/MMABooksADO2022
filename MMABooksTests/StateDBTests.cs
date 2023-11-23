@@ -27,15 +27,4 @@ namespace MMABooksTests
             Assert.AreEqual("Alabama", states[0].StateName);
         }
 
-        /*
-         Reference on why this is commented out - https://classes.lanecc.edu/mod/forum/discuss.php?d=943774
-         
-         As I and another student pointed out in the linked thread, we're not sure why this function/method/test even exists among the starter files, as the classes diagram for this lab doesn't even include/require it
-         */
-        //[Test]
-        //public void TestGetStatesDBUnavailable()
-        //{
-        //    Assert.Throws<MySqlException>(() => StateDB.GetStates());
-        //}
-    }
 }
