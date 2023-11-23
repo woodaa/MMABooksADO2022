@@ -27,4 +27,5 @@ namespace MMABooksTests
             Assert.AreEqual("Alabama", states[0].StateName);
         }
 
+    }
 }

@@ -82,7 +82,7 @@ namespace MMABooksTests {
             Assert.AreEqual(newZipCode, customer.ZipCode);
         }
 
-        // Omitting function body because of information in StateTests.cs regarding getters
+      
         [Test]
         public void TestCustomerGetters() { }
 
